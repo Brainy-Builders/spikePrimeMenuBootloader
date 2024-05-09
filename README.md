@@ -55,6 +55,13 @@ Looks like this:
 
 </div>
 
+# Running
+
+Left+Right Press | Left Press | Right Press
+---|---|---|
+Run mission | decrement selection | increment selection
+
+
 ## Licensed under the Boost Software License Agreement Version 1.0 
 
 

@@ -8,13 +8,13 @@ import time
 async def main(data):
     _index = 0
     while True:
-        if (button.pressed(button.LEFT) and button.pressed(button.RIGHT)):
+        if (button.pressed(button.LEFT) and button.pressed(button.RIGHT)):# Press both buttons to run selected button
             _index -= 1 # Debounce bug
             name = data[_index % len(data)][0]
             usesAsync = data[_index % len(data)][1]
             print
             if (usesAsync):
-                await name()
+                await name() # If async we need to await it
             else:
                 name()
                 
